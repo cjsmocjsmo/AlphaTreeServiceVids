@@ -1,0 +1,36 @@
+---
+	import BackArrow from '../components/BackArrow.astro';
+	import Header from '../components/Header.astro';
+	import VidWrapper from '../components/VidWrapper.astro';
+	let title = 'Trip Vids';
+---
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>{title}</title>
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<style global>
+			@import "../styles/global.css";
+		</style>
+	</head>
+	<body>
+		<main>
+			<BackArrow href="https://atsgoastro.pages.dev"/>
+			<Header />
+			<div class="vid-div">
+				<VidWrapper src="https://www.youtube.com/embed/PHDLlOBqkjw" />
+				<VidWrapper src="https://www.youtube.com/embed/mfWPIOh30nI" />
+				<VidWrapper src="https://www.youtube.com/embed/CVi0d1aepbE" />
+				<VidWrapper src="https://www.youtube.com/embed/okVkEfmoTTA" />
+				<VidWrapper src="https://www.youtube.com/embed/MAhLq6x6jOM" />
+				<VidWrapper src="https://www.youtube.com/embed/5XRaC8RSXbM" />
+				<VidWrapper src="https://www.youtube.com/embed/IZQymhYK59k" />
+				<VidWrapper src="https://www.youtube.com/embed/9rvT2BEYbf8" />
+				<VidWrapper src="https://www.youtube.com/embed/wI5ZR78-aKM" />
+
+			</div>
+		</main>
+	</body>
+</html>
+
